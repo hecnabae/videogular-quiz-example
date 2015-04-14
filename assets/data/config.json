@@ -2,7 +2,7 @@
 	"width": 740,
 	"height": 500,
 	"loop": false,
-	"controls": true,
+	"controls": false,
 	"autoPlay": true,
 	"stretch": 1,
 	"responsive": true,
