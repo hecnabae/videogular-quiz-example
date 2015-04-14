@@ -1,0 +1,36 @@
+{
+	"width": 740,
+	"height": 500,
+	"loop": false,
+	"controls": true,
+	"autoPlay": true,
+	"stretch": 1,
+	"responsive": true,
+	"template": "views/videogular/plugins/quiz/quiz.html",
+	"theme": "styles/themes/default/latest/videogular.css",
+
+	"preload": "auto",
+	"sources": [
+		{
+			"src": "http://static.videogular.com/assets/videos/videogular.mp4",
+			"type": "video/mp4"
+        },
+		{
+			"src": "http://static.videogular.com/assets/videos/videogular.webm",
+			"type": "video/webm"
+        },
+		{
+			"src": "http://static.videogular.com/assets/videos/videogular.ogg",
+			"type": "video/ogg"
+        }
+    ],
+	"tracks": [
+		{
+			"src": "http://www.videogular.com/assets/subs/pale-blue-dot.vtt",
+			"kind2": "subtitles",
+			"srclang": "en",
+			"label": "English",
+			"default": ""
+     }
+    ]
+}
