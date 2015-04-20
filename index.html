@@ -36,7 +36,7 @@
 	<div ng-app="videogularApp">
 		<div ng-controller="videogularCtrl">
 
-			<videogular vg-config="assets/data/config.json" vg-update-time="onUpdateTime" vg-update-size="onUpdateSize">
+			<videogular vg-config="assets/data/config.json" vg-update-time="videogularCtrl.onUpdateTime" vg-update-size="onUpdateSize">
 				<vg-media vg-src vg-tracks vg-loop vg-preload vg-native-controls></vg-media>
 
 				<vg-quiz vg-data='config.plugins.quiz.data' vg-quiz-submit="onQuizSubmit" vg-quiz-skip="onQuizSkip" vg-quiz-continue="onQuizContinue" vg-quiz-show-explanation="onQuizShowExplanation"></vg-quiz>
